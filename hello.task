@@ -1,0 +1,6 @@
+
+TaskModel(
+	'hello',
+	impls = [
+	SwTask('hello', stack_size = 1024, sources = ['hello.c'])
+	] )
